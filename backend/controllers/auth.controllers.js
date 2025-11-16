@@ -1,4 +1,5 @@
 export const signup = async (req, res) => {
+    const {email, password, username} = req.body;
   res.send("Signup Route");
 };
 
