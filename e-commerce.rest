@@ -1,6 +1,17 @@
 curl -X POST http://localhost:3000/api/auth/signup \
   -H "Content-Type: application/json" \
-  -d '{"username":"johndoe",
-  "password": "password123",
-  "email": "johnl@email.com"
+  -d '{"username":"johndee",
+  "password": "password1s23",
+  "email": "johl@email.com"
   }'
+###
+curl -X POST http://localhost:3000/api/auth/logout \
+  -H "Content-Type: application/json" \
+
+###
+curl -X POST http://localhost:3000/api/auth/login \
+  -H "Content-Type: application/json" \
+  -d '{"email": "johl@email.com",
+  "password": "password1s23"
+  }'
+
