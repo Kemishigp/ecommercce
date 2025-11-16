@@ -14,4 +14,10 @@ curl -X POST http://localhost:3000/api/auth/login \
   -d '{"email": "johl@email.com",
   "password": "password1s23"
   }'
+###
+  curl -X POST http://localhost:3000/api/auth/refresh-token\
+  -H "Content-Type: application/json" \
+  -d '{"email": "johl@email.com",
+  "password": "password1s23"
+  }'
 
