@@ -1,12 +1,11 @@
 import express from 'express';
-import { addToCart, getCartItems, removeAllFromCart, updateQuantity } from '../controllers/cart.controllers.js';
+import { getCoupons, validateCoupon } from '../controllers/coupon.controllers.js';
+
 import { protectRoute } from '../middleware/auth.middleware.js';
 
 const router = express.Router();
-router.get("/", )
-router.get("/", protectRoute, getCartItems)
-router.post("/", protectRoute, addToCart)
-router.delete("/", protectRoute, removeAllFromCart)
-router.put("/:id", protectRoute, updateQuantity)
+router.get("/", protectRoute, getCoupons )
+router.get("/validate", protectRoute, validateCoupon )
+
 
 export default router;
