@@ -1,6 +1,6 @@
 import User from '../models/user.model.js';
 import jwt from 'jsonwebtoken'; 
-import redis from '../lib/redis.js';
+import redis from '../lib/redis.js'; 
 
 
 // Dummy token generation function
