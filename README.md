@@ -1,6 +1,4 @@
-## 🛒 E-Commerce MERN App — README Template
-
-# E-Commerce Web Application (MERN)
+## 🛒 E-Commerce MERN App 
 
 A full‑stack e-commerce application built with the **MERN stack**, featuring secure checkout with **Stripe**, image uploads via **Cloudinary**, user authentication, and admin analytics.
 
