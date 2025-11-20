@@ -1,8 +1,8 @@
-## 🛒 E-Commerce MERN App 
+##  E-Commerce MERN App 
 
 A full‑stack e-commerce application built with the **MERN stack**, featuring secure checkout with **Stripe**, image uploads via **Cloudinary**, user authentication, and admin analytics.
 
-## 🚀 Features
+## Features
 
 * User authentication (JWT-based)
 * Product catalog with search + filtering
@@ -13,14 +13,14 @@ A full‑stack e-commerce application built with the **MERN stack**, featuring s
 * API caching with **Redis**
 * Responsive UI built with React
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 **Frontend:** React, React Router, Context API / Redux
 **Backend:** Node.js, Express.js
 **Database:** MongoDB (Mongoose)
 **Other:** Stripe, Redis, Cloudinary, JWT, Bcrypt
 
-## 📦 Installation
+##  Installation
 
 ```bash
 git clone <your-repo-url>
@@ -47,7 +47,7 @@ Run the app:
 npm run dev
 ```
 
-## 📊 Analytics
+##  Analytics
 
 Uses MongoDB Aggregation Pipelines to compute:
 
